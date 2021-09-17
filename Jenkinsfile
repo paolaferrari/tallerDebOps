@@ -8,7 +8,7 @@ pipeline {
 echo "El directorio es : "
 pwd
 
-ssh devops@192.168.1.117 \'bash -s\' < script.sh
+ssh pao@192.168.56.103 \'bash -s\' < script.sh
 cd /
 cd ~/Sites/sarapico
 pwd
